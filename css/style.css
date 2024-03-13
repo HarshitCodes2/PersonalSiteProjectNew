@@ -1,0 +1,265 @@
+.grid-brief-container {
+    display: grid;
+    background-color: #025d81;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 18vh 30vh 42vh;
+}
+
+
+body {
+    text-align: center;
+    font-size: 7rem;
+}
+
+p,
+a {
+    line-height: 2;
+    font-size: 17%;
+}
+
+.horizontal-rule {
+    border-top: dotted 7px;
+    border-color: #055374;
+    width: 7vw;
+    margin: auto;
+}
+
+.cloud4 {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    right: 8vw;
+}
+
+.cloud-3 {
+    position: relative;
+    align-self: last baseline;
+    padding-left: 25vw;
+}
+
+.clouds {
+    width: 19vw;
+    height: auto;
+}
+
+.image-div {
+    /* margin: 25vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vh; */
+    font-size: 100%;
+
+}
+
+.section {
+    margin: 15vh auto;
+}
+
+.headings-h2 {
+    margin: 2vh auto;
+    padding-bottom: 1vh;
+    color: #64CCC5;
+    font-size: 40%;
+}
+
+.intro-text {
+    width: 30%;
+    font-size: larger;
+    margin: auto;
+    font-size: 17%;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+}
+
+.empty-2 {
+    grid-column: span 2;
+}
+
+h1 {
+    font-family: 'Kenia', sans-serif;
+}
+
+h5 {
+    margin: 2vh auto;
+    padding-bottom: 1vh;
+    color: #1e978f;
+}
+
+.grid-skills-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 16vh auto;
+    gap: 2rem;
+    width: 50vw;
+}
+
+.flex-skills-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.skill-img {
+    height: 13.5rem;
+    align-self: baseline;
+    border-radius: 50%;
+}
+
+.skill-text-1 {
+    text-align: justify;
+}
+
+.skill-text-2 {
+    text-align: right;
+}
+
+.contact-text {
+    width: 44vw;
+    margin: 40px auto 0px;
+}
+
+.contact-button {
+    border: 0px;
+    border-radius: 5px;
+    background-color: #04a89d;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: #66ccc5;
+}
+
+.footer {
+    height: 190px;
+    background-color: #66ccc5;
+    color: white;
+}
+
+.footer-links {
+    color: #04a89d;
+    font-size: 15%;
+    text-decoration: none;
+    position: relative;
+    bottom: 60px;
+}
+
+.footer-links:hover {
+    color: white;
+}
+
+.copyright {
+    color: white;
+    position: relative;
+    bottom: 60px;
+    font-size: 12%;
+}
+
+
+#dev-span {
+    font-family: 'Kenia', sans-serif;
+    text-decoration: overline underline dashed;
+    font-size: 120%;
+    color: #66ccc5;
+}
+
+#mountain-img {
+    height: 42vh;
+    width: 60vw;
+}
+
+#name-heading {
+    font-size: 100%;
+    color: #66ccc5;
+    margin: auto;
+}
+
+#one-liner {
+    font-size: 40%;
+    color: #64CCC5;
+    font-weight: 200;
+}
+
+#profile-pic {
+    height: 25vh;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .Grid_brief_container {
+    background-color: #04364A;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    padding: 10%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.Grid_brief_item {
+    color: #64CCC5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro_box {
+    display: flex;
+    height: 40%;
+    align-items: baseline;
+}
+
+.intro_text_box {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.right_brief {
+    align-items: flex-end;
+}
+
+
+
+.pfp {
+    position: relative;
+    display: inline-flex;
+}
+
+.intro_text {
+    display: inline-flex;
+}
+
+h1 {
+    font-family: 'Kenia', sans-serif;
+    font-style: normal;
+    font-size: 300%;
+} */
